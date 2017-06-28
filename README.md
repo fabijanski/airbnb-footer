@@ -2,7 +2,7 @@
 
 ### Description
 
-I tried to recreate the footer of  [Airbnb](https://www.airbnb.pl/) site.
+I've tried to recreate the footer of  [Airbnb](https://www.airbnb.pl/) site.
 
 Used: HTML, SCSS, Gulp, RWD.
 
