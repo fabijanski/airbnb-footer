@@ -1,25 +1,19 @@
-// @define-mixin atSmall {
-//   @media (min-width: 530px) {
-//     @mixin-content;
-//   }
-// }
-//
-// @define-mixin atMedium {
-//   @media (min-width: 800px) {
-//     @mixin-content;
-//   }
-// }
-//
-// @define-mixin atLarge {
-//   @media (min-width: 1010px) {
-//     @mixin-content;
-//   }
-// }
-//
-// @define-mixin clearfix {
-//   &::after {
-//     content: "";
-//     clear: both;
-//     display: table;
-//   }
-// }
+@mixin atSmall {
+  @media all and ( max-width: 744px ) {
+    @content;
+  }
+}
+
+@mixin atMedium {
+  @media all and ( min-width: 745px ) {
+    @content;
+  }
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}

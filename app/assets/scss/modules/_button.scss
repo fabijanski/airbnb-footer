@@ -1,0 +1,16 @@
+.button {
+  select {
+    color: $mainGray;
+    width: 100%;
+    height: 50px;
+    padding: .625rem;
+    font-size: 1.2rem;
+    border: 1px solid $lightGray;
+    border-radius: 2px;
+    -webkit-appearance: none; /*there is no custom arrow when none*/
+    -moz-appearance: none; /*there is no custom arrow when none*/
+    margin-bottom: 10px;
+    background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQSMX86PE-vK2GKPhzXTFCOXjxv70iq6qJsFsM2gBX08UlX5gky2i_m6pY") no-repeat right 10px top 13px;
+    background-size: 20px; /* to resize the original background */
+  }
+}

@@ -1,0 +1,22 @@
+.features {
+  h3 {
+    margin: 0;
+    font-weight: 700;
+    color: $mainDark;
+  }
+
+  ul {
+    margin-top: 1rem;
+
+    li {
+      margin-bottom: 0.3rem;
+      color: $mainGray;
+    }
+  }
+
+  &--hidden-at-small {
+    @include atSmall {
+      display: none;
+    }
+  }
+}

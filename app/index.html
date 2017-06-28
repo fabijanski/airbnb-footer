@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Airbnb</title>
     <link rel="stylesheet" href="./temp/css/styles.css">
-
   </head>
+
   <body>
-      <footer>
-        <div class="footer-container">
-          <div class="top-row">
-            <div class="col-1-4">
-              <div class="first-column">
-                <div class="dropdown">
+      <footer class="site-footer">
+        <div class="wrapper">
+          <div class="row row--padding">
+            <div class="row__small-12 row__medium-3">
+              <div class="row row--gutters-small">
+                <div class="button row__small-6 row__medium-12">
                   <select id="language-list">
                     <option>Angielski</option>
                     <option selected>Polski</option>
@@ -22,7 +23,7 @@
                   </select>
                 </div>
 
-                <div class="dropdown">
+                <div class="button row__small-6 row__medium-12">
                   <select id="currency-list">
                     <option>GBP</option>
                     <option selected>PLN</option>
@@ -32,8 +33,8 @@
               </div>
             </div>
 
-            <div class="col-1-4">
-              <div class="column">
+            <div class="row__medium-3 row__medium-offset-1-left">
+              <div class="features features--hidden-at-small">
                 <h3>Airbnb</h3>
                 <ul>
                   <li><a href="#">O nas</a></li>
@@ -46,8 +47,8 @@
               </div>
             </div>
 
-            <div class="col-1-4">
-              <div class="column">
+            <div class="row__medium-3 row__medium-offset-1-left row">
+              <div class="features features--hidden-at-small">
                 <h3>Odkrywaj</h3>
                 <ul>
                   <li><a href="#">Zaufanie i Bezpieczeństwo</a></li>
@@ -59,8 +60,8 @@
               </div>
             </div>
 
-            <div class="col-1-4">
-              <div class="column">
+            <div class="row__medium-3 row__medium-offset-1-left row">
+              <div class="features features--hidden-at-small">
                 <h3>Gospodarze</h3>
                 <ul>
                   <li><a href="#">Czemu warto zostać gospodarzem</a></li>
@@ -71,21 +72,26 @@
             </div>
           </div>
 
-          <div class="bottom-row">
-            <div class="copyright">
-              <p>&copy; Airbnb, Inc.</p>
+          <div class="row row--padding-small row--t-border">
+            <div class="row__small-12 row__medium-6">
+              <div class="social-icons-bar__copyright">
+                <p>&copy; Airbnb, Inc.</p>
+              </div>
             </div>
-            <div class="links">
-              <ul>
-                <li><a href="#">Warunki</a></li>
-                <li><a href="#">Prywatność</a></li>
-                <li><a href="#">Mapa obszaru</a></li>
-                <li><a href="http://facebook.com#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="http://twitter.com#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="http://instagram.com#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              </ul>
+            <div class="row__small-12 row__medium-6">
+              <div class="social-icons-bar__links">
+                <ul>
+                  <li><a href="#">Warunki</a></li>
+                  <li><a href="#">Prywatność</a></li>
+                  <li><a href="#">Mapa obszaru</a></li>
+                  <li><a href="http://facebook.com#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="http://twitter.com#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="http://instagram.com#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
+
         </div>
       </footer>
   </body>

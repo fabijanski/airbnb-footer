@@ -1,0 +1,29 @@
+.social-icons-bar {
+  &__copyright {
+    text-align: left;
+    @include atSmall {
+      margin-bottom: .3rem;
+    }
+    p {
+      margin: 0;
+    }
+  }
+
+  &__links {
+    text-align: right;
+
+    @include atSmall {
+      text-align: left;
+    }
+
+    ul li {
+      display: inline-block;
+      padding-left: .5rem;
+
+      @include atSmall{
+        padding-left: 0;
+        padding-right: .5rem;
+      }
+    }
+  }
+}
